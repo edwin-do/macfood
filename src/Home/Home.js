@@ -1,6 +1,7 @@
 import React from 'react';
 import './Home.scss';
 import Navbar from '../components/Navbar/Navbar';
+import CarouselTips from '../components/CarouselTips/CarouselTips';
 import logo from '../assets/img/logo.png';
 
 function Home(){
@@ -21,6 +22,7 @@ function Home(){
                 </div>
             </div>
         </div>
+        <CarouselTips/>
     </div>;
 }
 
