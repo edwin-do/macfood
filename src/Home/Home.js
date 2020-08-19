@@ -9,7 +9,7 @@ function Home(){
             <div className="col-12 front">
                 <Navbar /> 
                 <div className="text-center">
-                    <img src={logo}></img>
+                    <img src={logo} alt=""></img>
                 </div>
             </div>
         </div>
