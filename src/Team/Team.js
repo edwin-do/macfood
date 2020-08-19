@@ -1,8 +1,8 @@
 import React from 'react';
-import './About.css'
+import './Team.scss'
 
-function About(){
+function Team(){
     return <h1> Welcome to About</h1>;
 }
 
-export default About;
+export default Team;

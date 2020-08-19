@@ -1,6 +1,7 @@
 import React from 'react';
 import './Home.scss';
 import Navbar from '../components/Navbar/Navbar';
+import logo from '../assets/img/logo.png';
 
 function Home(){
     return <div id="home">
@@ -8,12 +9,9 @@ function Home(){
             <div className="col-12 front">
                 <Navbar /> 
                 <div className="text-center">
-                    <h1>McMaster Food Allergy Club</h1>
+                    <img src={logo}></img>
                 </div>
             </div>
-        </div>
-        <div className="description row">
-            <h3> Something</h3>
         </div>
     </div>;
 }

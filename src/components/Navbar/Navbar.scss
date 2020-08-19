@@ -3,5 +3,12 @@
     
     a{
         color: black;
+        font-size: x-large;
+        font-weight: 400;
+
+        &:hover{
+            color: whitesmoke;
+        }
     }
+
 }
