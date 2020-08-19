@@ -2,11 +2,13 @@ import React from 'react';
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 import Home from './Home/Home';
 import About from './About/About';
+import Navbar from './components/Navbar/Navbar';
 import './App.css';
 
 function App() {
   return (
     <React.Fragment>
+      {/* <Navbar/> */}
       <Router>
         <Switch>
           <Route exact path="/">

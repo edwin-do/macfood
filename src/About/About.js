@@ -2,7 +2,7 @@ import React from 'react';
 import './About.css'
 
 function About(){
-    return <h1> Welcome to Home</h1>;
+    return <h1> Welcome to About</h1>;
 }
 
 export default About;

@@ -1,0 +1,16 @@
+#home{
+    background-color: rgb(229, 229, 245);
+
+    .front{
+        height: 100vh;
+        width: auto;
+        background-image: url("../assets/img/background.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        .text-center{
+            padding-top: 40vh;
+        }
+    }
+}
+
