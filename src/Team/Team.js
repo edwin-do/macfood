@@ -2,6 +2,7 @@ import React from 'react';
 import './Team.scss'
 import Navbar from '../components/Navbar/Navbar';
 import Card from '../components/Card/Card';
+import Jamie from '../assets/img/jamie.JPG';
 
 function Team(){
     return <div id="team">
@@ -14,7 +15,7 @@ function Team(){
                     </div>
                     <div className="row">
                         <div className="col-6">
-                            <Card name="test" blurb="random"/>
+                            <Card name="test" blurb="random" img={Jamie}/>
                             <Card name="test" blurb="random"/>
                             <Card name="test" blurb="random"/>
                         </div>
