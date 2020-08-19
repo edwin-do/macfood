@@ -2,8 +2,14 @@
     width: 35vw;
     border-radius: 3%;
     margin-top: 10%;
+    background-color: transparent;
 
     img{
-        border-radius: 5%;
+        border-radius: 10%;
+        opacity: 1.0;
+    }
+
+    .card-body{
+        opacity: 0.5;
     }
 }

@@ -2,11 +2,11 @@ import React from 'react';
 import './Card.scss'
 
 function Card(props){
-    return <div id="card" class="card">
-        <img class="card-img-top" src={props.img} alt=""></img>
-        <div class="card-body">
+    return <div id="card" className="card">
+        <img className="card-img-top" src={props.img} alt=""></img>
+        <div className="card-body">
             <h4>{props.name}</h4>
-            <p class="card-text">{props.blurb}</p>
+            <p className="card-text">{props.blurb}</p>
         </div>
     </div>;
 }
